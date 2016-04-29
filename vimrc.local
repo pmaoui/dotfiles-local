@@ -1,1 +1,12 @@
+set gdefault
+
+" scroll the page before the end of the window
+set scrolloff=7
+
 let g:syntastic_javascript_checkers = ['eslint']
+
+let test#javascript#mocha#options = '--compilers js:babel-core/register'
+nmap <silent> <leader>T :TestFile<CR>
+
+" CtrlP : ignore folders
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
