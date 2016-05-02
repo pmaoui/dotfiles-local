@@ -7,6 +7,10 @@ set-window-option -g window-status-current-fg black
 #     printf "\x1b[38;5;${i}mcolour${i}\n"
 # done
 
+# binding
+## reload tmux conf (<C-B> r)
+bind-key r source-file ~/.tmux.conf.local
+
 # window splitting
 unbind %
 bind | split-window -h
