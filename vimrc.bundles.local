@@ -1,3 +1,7 @@
 Plug 'airblade/vim-gitgutter'
-Plug 'tomasr/molokai'
 Plug 'godlygeek/tabular'
+Plug 'digitaltoad/vim-pug'
+
+" Themes
+"Plug 'tomasr/molokai'
+Plug 'gertjanreynaert/cobalt2-vim-theme'
