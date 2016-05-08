@@ -23,3 +23,4 @@ nmap <silent> <leader>T :TestFile<CR>
 " CtrlP : ignore folders
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
 
+colorscheme cobalt2
