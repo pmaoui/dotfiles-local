@@ -2,6 +2,15 @@
 set-window-option -g window-status-current-bg "colour217"
 set-window-option -g window-status-current-fg black
 
+# highlight window when it has new activity
+set-window-option -g monitor-activity on
+set -g visual-activity off
+
+# activity window pane green
+set-window-option -g window-status-activity-attr bold,blink,underscore
+set-window-option -g window-status-activity-bg "colour226"
+set-window-option -g window-status-activity-fg black
+
 # to get all available colors from term
 # for i in {0..255} ; do
 #     printf "\x1b[38;5;${i}mcolour${i}\n"
