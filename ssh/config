@@ -1,0 +1,18 @@
+Host digit
+  Hostname 95.142.160.5
+  Port 301
+  User admin
+  IdentityFile ~/.ssh/id_rsa
+
+Host ks
+  Hostname 5.135.158.78
+  Port 22
+  User root
+  IdentityFile ~/.ssh/id_rsa
+
+Host waton
+  Hostname 46.226.108.178
+  Port 22
+  User root
+  IdentityFile ~/.ssh/id_rsa
+
