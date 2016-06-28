@@ -1,6 +1,9 @@
 Plug 'airblade/vim-gitgutter'
 Plug 'godlygeek/tabular'
 Plug 'digitaltoad/vim-pug'
+Plug 'scrooloose/nerdcommenter'
+Plug 'moll/vim-node'
+Plug 'mtscout6/syntastic-local-eslint.vim'
 
 " Themes
 "Plug 'tomasr/molokai'
