@@ -34,3 +34,7 @@ cnoremap <C-j> <Down>
 map <leader>gf :e <cfile><cr>
 
 colorscheme cobalt2
+
+" Stop auto return
+set textwidth=0
+set wrapmargin=0
